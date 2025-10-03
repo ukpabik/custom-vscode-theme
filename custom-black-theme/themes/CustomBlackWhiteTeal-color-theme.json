@@ -6,7 +6,7 @@
     "editor.background": "#424242",
     "editor.foreground": "#242424c2",
     "editorLineNumber.foreground": "#666666",
-    "editorCursor.foreground": "#20B2AA",
+    "editorCursor.foreground": "#ffffff",
     "editor.selectionBackground": "#5a5a5a",
     "editor.lineHighlightBackground": "#4a4a4a"
   },
@@ -42,7 +42,7 @@
         "support.function.builtin"
       ],
       "settings": {
-        "foreground": "#9f67be"
+        "foreground": "#9ff2fd"
       }
     },
     {
@@ -61,7 +61,7 @@
         "storage.type.let"
       ],
       "settings": {
-        "foreground": "#6fb368",
+        "foreground": "#bee0ba",
         "fontStyle": "underline"
       }
     },
@@ -79,7 +79,7 @@
         "variable.language.self"
       ],
       "settings": {
-        "foreground": "#66c9c4"
+        "foreground": "#65caa0"
       }
     },
     {
@@ -115,7 +115,7 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#c73a6e",
+        "foreground": "#d69eb3",
         "fontStyle": "italic"
       }
     },
@@ -156,7 +156,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#9f67be"
+        "foreground": "#e46969"
       }
     }
   ]
