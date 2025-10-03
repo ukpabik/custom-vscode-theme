@@ -1,0 +1,20 @@
+{
+  "name": "custom-black-theme",
+  "displayName": "Custom Black White Teal",
+  "description": "A VS Code theme with black types, white functions, and teal variables.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Custom Black White Teal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CustomBlackWhiteTeal-color-theme.json"
+      }
+    ]
+  }
+}

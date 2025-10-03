@@ -1,0 +1,91 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Custom Black White Teal (Generic)",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2E2E2E",
+    "editor.foreground": "#000000"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "storage.type",
+        "meta.return.type",
+        "storage.class",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#000000" // black for types 
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "meta.method-call",
+        "entity.name.method"
+      ],
+      "settings": {
+        "foreground": "#9f67be" // purple-blue for function names 
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control",
+        "keyword.declaration"
+      ],
+      "settings": {
+        "foreground": "#a10808" // dark red for func/var/const/def/let/etc. 
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.parameter",
+        "meta.parameter",
+        "meta.definition.variable.name",
+        "meta.definition.parameter",
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#20B2AA" // aquamarine for variables/params 
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#0066CC" // medium blue for strings 
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "number",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#D2691E" // chocolate orange for numbers/booleans 
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#c73a6e", // muted rosy pink for comments 
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
