@@ -3,7 +3,7 @@
   "displayName": "Custom Black White Teal",
   "description": "A custom VS Code theme with black types, purple-blue functions, aquamarine variables, and more.",
   "version": "0.0.1",
-  "publisher": "Kelechi Ukpabi",
+  "publisher": "ukpabik",
   "engines": {
     "vscode": "^1.50.0"
   },
