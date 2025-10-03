@@ -1,13 +1,17 @@
 {
-  "name": "custom-black-theme",
+  "name": "custom-black-white-teal",
   "displayName": "Custom Black White Teal",
-  "description": "A VS Code theme with black types, white functions, and teal variables.",
+  "description": "A custom VS Code theme with black types, purple-blue functions, aquamarine variables, and more.",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "Kelechi Ukpabi",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukpabik/custom-vscode-theme.git"
+  },
   "contributes": {
     "themes": [
       {
