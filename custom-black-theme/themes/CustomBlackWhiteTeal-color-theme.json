@@ -3,8 +3,12 @@
   "name": "Custom Black White Teal (Generic)",
   "type": "dark",
   "colors": {
-    "editor.background": "#2E2E2E",
-    "editor.foreground": "#000000"
+    "editor.background": "#424242",
+    "editor.foreground": "#242424c2",
+    "editorLineNumber.foreground": "#666666",
+    "editorCursor.foreground": "#20B2AA",
+    "editor.selectionBackground": "#5a5a5a",
+    "editor.lineHighlightBackground": "#4a4a4a"
   },
   "tokenColors": [
     {
@@ -14,10 +18,17 @@
         "storage.type",
         "meta.return.type",
         "storage.class",
-        "entity.name.class"
+        "entity.name.class",
+        "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.name.type.struct",
+        "entity.name.type.enum",
+        "support.class",
+        "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#000000" // black for types 
+        "foreground": "#000000",
+        "fontStyle": "bold"
       }
     },
     {
@@ -26,10 +37,12 @@
         "support.function",
         "meta.function-call",
         "meta.method-call",
-        "entity.name.method"
+        "entity.name.method",
+        "meta.function-call.generic",
+        "support.function.builtin"
       ],
       "settings": {
-        "foreground": "#9f67be" // purple-blue for function names 
+        "foreground": "#9f67be"
       }
     },
     {
@@ -38,10 +51,18 @@
         "storage.type",
         "storage.modifier",
         "keyword.control",
-        "keyword.declaration"
+        "keyword.declaration",
+        "keyword.operator.new",
+        "keyword.other",
+        "storage.type.function",
+        "storage.type.class",
+        "storage.type.var",
+        "storage.type.const",
+        "storage.type.let"
       ],
       "settings": {
-        "foreground": "#a10808" // dark red for func/var/const/def/let/etc. 
+        "foreground": "#6fb368",
+        "fontStyle": "underline"
       }
     },
     {
@@ -51,40 +72,91 @@
         "meta.parameter",
         "meta.definition.variable.name",
         "meta.definition.parameter",
-        "variable.other.readwrite"
+        "variable.other.readwrite",
+        "variable.other.object",
+        "variable.other.property",
+        "variable.language.this",
+        "variable.language.self"
       ],
       "settings": {
-        "foreground": "#20B2AA" // aquamarine for variables/params 
+        "foreground": "#20B2AA"
       }
     },
     {
       "scope": [
         "string",
         "string.quoted",
-        "string.template"
+        "string.template",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.triple"
       ],
       "settings": {
-        "foreground": "#0066CC" // medium blue for strings 
+        "foreground": "#6e9ac5"
       }
     },
     {
       "scope": [
         "constant.numeric",
         "number",
-        "constant.language.boolean"
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#D2691E" // chocolate orange for numbers/booleans 
+        "foreground": "#c777b6"
       }
     },
     {
       "scope": [
         "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "comment.line",
+        "comment.block"
       ],
       "settings": {
-        "foreground": "#c73a6e", // muted rosy pink for comments 
+        "foreground": "#c73a6e",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "punctuation.definition.block",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#bebebe"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "meta.tag"
+      ],
+      "settings": {
+        "foreground": "#a10808"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#9f67be"
       }
     }
   ]
