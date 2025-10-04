@@ -8,7 +8,16 @@
     "editorLineNumber.foreground": "#666666",
     "editorCursor.foreground": "#ffffff",
     "editor.selectionBackground": "#5a5a5a",
-    "editor.lineHighlightBackground": "#4a4a4a"
+    "editor.lineHighlightBackground": "#4a4a4a",
+    "editorSuggestWidget.background": "#000000",
+    "editorSuggestWidget.foreground": "#b9b9b9",
+    "editorHoverWidget.background": "#1e1e1e",
+    "editorHoverWidget.foreground": "#b9b9b9",
+    "menu.background": "#1e1e1e",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#333333",
+    "menu.selectionForeground": "#6db6c0",
+    "menu.border": "#444444"
   },
   "tokenColors": [
     {
