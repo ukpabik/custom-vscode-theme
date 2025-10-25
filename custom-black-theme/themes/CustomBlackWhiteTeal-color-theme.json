@@ -2,6 +2,12 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Custom Black White Teal (Generic)",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable": "#65caa0",
+    "parameter": "#ffc085",
+    "property": "#9ff2fd"
+  },
   "colors": {
     "editor.background": "#424242",
     "editor.foreground": "#fffef5",
@@ -167,6 +173,6 @@
       "settings": {
         "foreground": "#e46969"
       }
-    }
+    },
   ]
 }
